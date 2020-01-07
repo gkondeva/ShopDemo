@@ -5,7 +5,9 @@ import java.util.List;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import ch.qos.logback.core.net.server.Client;
+import com.swiftacad.entity.Client;
+
+
 
 @Repository
 public interface ClientRepository extends CrudRepository<Client, Long>{

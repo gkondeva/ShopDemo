@@ -11,10 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-
 import com.swiftacad.entity.Shop;
-
 import com.swiftacad.repository.ShopRepository;
+
 
 
 

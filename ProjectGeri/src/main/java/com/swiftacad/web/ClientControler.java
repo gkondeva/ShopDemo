@@ -1,6 +1,7 @@
 package com.swiftacad.web;
 
 import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -10,10 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-
+import com.swiftacad.entity.Client;
 import com.swiftacad.repository.ClientRepository;
 
-import ch.qos.logback.core.net.server.Client;
 
 @RestController
 public class ClientControler {
